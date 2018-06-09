@@ -1,0 +1,14 @@
+{{!-- Passport ta login esnasında error mesajlarının görünmesini sağlayacak kodlar; --}}
+{{#if error}}
+<div class="alert alert-danger">{{error}}</div>
+{{/if}}
+
+
+{{!-- Error mesajlarımızı döndürüyoruz; --}}
+{{#each errors}}
+
+  <div class="alert alert-danger">{{text}}</div>
+
+{{else}} {{!-- error yoksa bişey yapmıyor.boş bırak --}}  
+
+{{/each}} {{!-- loop u kapat --}}

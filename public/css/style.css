@@ -1,0 +1,140 @@
+body {
+  margin-top: 76px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 18px;
+    padding-right: 5px; }
+
+#main {
+  background: url("../img/main2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 600px; }
+  #main .primary-overlay {
+    background: rgba(50, 146, 166, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #main .row {
+    margin-top: 120px; }
+
+#mynotes {
+  background: url("../img/main2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 600px; }
+  #mynotes .primary-overlay {
+    background: rgba(50, 146, 166, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #mynotes .row {
+    margin-top: 70px; }
+  #mynotes #allNotes {
+    display: none; }
+  #mynotes #done {
+    display: none; }
+  #mynotes textarea {
+    width: 100%;
+    max-width: 100%;
+    opacity: 0.9;
+    font-size: 18px;
+    color: #0A2342;
+    border-left-width: 25px;
+    border-color: #E3E7AF; }
+  #mynotes #notePad {
+    display: none; }
+  #mynotes #transparentCard{
+    background: transparent;
+    border-color: #fff;
+  }
+#profile {
+  background: url("../img/main2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 600px; }
+  #profile .primary-overlay {
+    background: rgba(50, 146, 166, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #profile .row {
+    margin-top: 70px; }
+  #profile .containerCustom {
+    background-color: rgba(49, 36, 36, 0.1);
+    border-radius: 20px; }
+  #profile #form {
+    font-size: 18px; }
+
+
+#about {
+  background: url("../img/main2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 600px; }
+  #about .primary-overlay {
+    background: rgba(50, 146, 166, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #about .row {
+    margin-top: 80px; }
+
+
+#addnotes{
+  background: rgba(50, 146, 166, 0.4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  min-height: 600px;
+}
+
+#addnotes .primary-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+}
+
+
+#addnotes img{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+#notes{
+  margin-top: 120px;
+}
+
+#edit{
+  margin-top: 130px;
+}
+
+#login{
+  margin-top: 130px;
+}
+
+#register{
+  margin-top: 130px;
+}

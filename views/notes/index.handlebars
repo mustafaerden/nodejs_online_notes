@@ -1,0 +1,23 @@
+
+<section id="notes">
+  {{#each notes}}
+  <div class="container">
+    <div class="card card-body mb-2">
+    <h4>{{title}}</h4> {{!-- video idea title --}}
+    <p>{{details}}</p> {{!-- idea details --}}
+    <a class="btn btn-primary btn-block mb-2" href="/notes/edit/{{id}}">Edit</a>
+    {{!-- Delete işlemimizi form delete metodu yani method-override ile yapıyoruz --}}
+    <form action="/notes/{{id}}?_method=DELETE" method="POST">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" class="btn btn-danger btn-block" value="Delete">
+    </form>
+  </div>
+  </div>
+  
+</section>
+  
+
+{{else}}
+  <p>No notes listed !</p>
+
+{{/each}}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Online Notes</title>
+</head>
+
+<body>
+
+{{> _navbar}}
+
+{{> _msg}} {{!-- _msg partial ı dahil ettik --}}
+
+{{> _errors}} {{!-- errors partial ı dahil ettik. --}}
+
+{{{body}}}
+
+
+
+
+
+  <!-- FOOTER BURADA BASLAR -->
+  <footer id="main-footer" class="bg-light text-primary fixed-bottom">
+    <div class="container">
+      <div class="row text-center align-items-center">
+        <div class="col-md-6 m-auto">
+          <!-- ml-auto saga atar,mr-auto sola atar -->
+          <p>Copyright &copy; 2018 Mustafa Erden</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER BURADA BITER -->
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
