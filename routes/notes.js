@@ -47,7 +47,7 @@ router.post('/', (req, res) => {
       details: req.body.details,
       user: req.user.id
     }
-    new Note(newUser) //Idea modelimizin adı
+    new Note(newUser) //Note modelimizin adı
       .save()
       .then(note => {
         req.flash('success_msg', 'Note Added Successfully');
